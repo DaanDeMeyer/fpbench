@@ -1,0 +1,4 @@
+mkosi.output/
+mkosi.cache/
+.vscode/
+venv/

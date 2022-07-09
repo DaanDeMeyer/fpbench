@@ -1,0 +1,12 @@
+[Unit]
+Description=Run benchmarks and then shutdown the machine
+After=multi-user.target
+Requires=multi-user.target
+OnFailure=poweroff.target
+OnFailureJobMode=replace-irreversibly
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/src
+ExecStartPost=systemctl poweroff --no-block
+StandardOutput=tty
