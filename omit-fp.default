@@ -1,0 +1,4 @@
+[Output]
+Output=omit-fp
+OutputDirectory=omit-fp/mkosi.output
+Cache=omit-fp/mkosi.cache

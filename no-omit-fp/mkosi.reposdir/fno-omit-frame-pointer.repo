@@ -1,0 +1,11 @@
+[copr:copr.fedorainfracloud.org:daandemeyer:fno-omit-frame-pointer]
+name=Copr repo for fno-omit-frame-pointer owned by daandemeyer
+baseurl=https://download.copr.fedorainfracloud.org/results/daandemeyer/fno-omit-frame-pointer/fedora-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/daandemeyer/fno-omit-frame-pointer/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+priority=1

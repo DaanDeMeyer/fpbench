@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.4.0m1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://sun.aei.polsl.pl//~sdeor/corpus/silesia.zip</URL>
+      <MD5>c240c17d6805fb8a0bde763f1b94cd99</MD5>
+      <SHA256>0626e25f45c0ffb5dc801f13b7c82a3b75743ba07e3a71835a41e3d9f63c77af</SHA256>
+      <FileName>silesia.zip</FileName>
+      <FileSize>68182744</FileSize>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>

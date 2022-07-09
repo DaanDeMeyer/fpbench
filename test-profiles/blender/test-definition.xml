@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.0m1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Blender</Title>
+    <AppVersion>3.0</AppVersion>
+    <Description>Blender is an open-source 3D creation and modeling software project. This test is of Blender's Cycles benchmark with various sample files. GPU computing via NVIDIA OptiX and NVIDIA CUDA is currently supported.</Description>
+    <ResultScale>Seconds</ResultScale>
+    <Proportion>LIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>3.0.0</Version>
+    <SupportedPlatforms>Linux, Windows, MacOSX</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <SupportedArchitectures>x86_64</SupportedArchitectures>
+    <EnvironmentSize>1300</EnvironmentSize>
+    <ProjectURL>https://www.blender.org/</ProjectURL>
+    <RepositoryURL>https://git.blender.org/gitweb/gitweb.cgi/blender.git</RepositoryURL>
+    <InternalTags>CUDA</InternalTags>
+    <Maintainer>Michael Larabel</Maintainer>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments>-noaudio --enable-autoexec -b bmw27_cpu.blend -o output.test -x 1 -F JPEG -f 1</Arguments>
+    </Default>
+  </TestSettings>
+</PhoronixTestSuite>

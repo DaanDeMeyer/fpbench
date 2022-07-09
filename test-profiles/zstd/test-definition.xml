@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.4.0m1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Zstd Compression</Title>
+    <AppVersion>1.5.0</AppVersion>
+    <Description>This test measures the time needed to compress/decompress the Silesia corpus using Zstd compression with options for different compression levels / settings.</Description>
+    <ResultScale>MB/s</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.5.0</Version>
+    <SupportedPlatforms>Linux, BSD, MacOSX, Solaris, Windows</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <EnvironmentSize>2000</EnvironmentSize>
+    <ProjectURL>http://github.com/facebook/zstd</ProjectURL>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments>-b3</Arguments>
+    </Default>
+  </TestSettings>
+</PhoronixTestSuite>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.8.0-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>PostgreSQL</Title>
+    <AppVersion>14.0</AppVersion>
+    <Description>This is a benchmark of PostgreSQL using pgbench for facilitating the database benchmarks.</Description>
+    <ResultScale>TPS</ResultScale>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.11.1</Version>
+    <SupportedPlatforms>Linux, MacOSX, BSD, Solaris, Windows</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>System</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <EnvironmentSize>1500</EnvironmentSize>
+    <ProjectURL>http://www.postgresql.org/</ProjectURL>
+    <RepositoryURL>https://github.com/postgres/postgres</RepositoryURL>
+    <InternalTags>SMP</InternalTags>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments>-s 1000 -c 100</Arguments>
+    </Default>
+  </TestSettings>
+</PhoronixTestSuite>

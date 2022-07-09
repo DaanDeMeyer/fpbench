@@ -1,0 +1,7 @@
+[Distribution]
+RepositoryDirectory=no-omit-fp/mkosi.reposdir
+
+[Output]
+Output=no-omit-fp
+OutputDirectory=no-omit-fp/mkosi.output
+Cache=no-omit-fp/mkosi.cache

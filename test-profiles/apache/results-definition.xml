@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.4.0-->
+<PhoronixTestSuite>
+  <ResultsParser>
+    <OutputTemplate>Requests per second:    #_RESULT_# [#/sec] (mean)</OutputTemplate>
+  </ResultsParser>
+</PhoronixTestSuite>

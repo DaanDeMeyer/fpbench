@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.6.0-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>OpenSSL</Title>
+    <AppVersion>3.0</AppVersion>
+    <Description>OpenSSL is an open-source toolkit that implements SSL (Secure Sockets Layer) and TLS (Transport Layer Security) protocols. This test profile makes use of the built-in "openssl speed" benchmarking capabilities.</Description>
+    <Proportion>HIB</Proportion>
+    <TimesToRun>3</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>3.0.1</Version>
+    <SupportedPlatforms>Linux, Solaris, BSD, MacOSX</SupportedPlatforms>
+    <SoftwareType>Utility</SoftwareType>
+    <TestType>Processor</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <EnvironmentSize>430</EnvironmentSize>
+    <ProjectURL>http://www.openssl.org/</ProjectURL>
+    <RepositoryURL>https://github.com/openssl/openssl</RepositoryURL>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments>rsa4096</Arguments>
+    </Default>
+  </TestSettings>
+</PhoronixTestSuite>
